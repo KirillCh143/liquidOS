@@ -1,6 +1,6 @@
 <div align="center">
 
-# LiquidTV
+# liquidOS
 
 **An Apple&nbsp;TV&ndash;style home screen for Android&nbsp;TV and Google&nbsp;TV.**
 A glass dock, a full-screen apps grid, live wallpapers and 14 languages. No ads, no accounts.
@@ -12,19 +12,19 @@ A glass dock, a full-screen apps grid, live wallpapers and 14 languages. No ads,
 
 **English** · [Русский](README.ru.md)
 
-<img src="scrins/tv-001229.png" alt="LiquidTV home screen with the glass dock" width="860">
+<img src="scrins/tv-001229.png" alt="liquidOS home screen with the glass dock" width="860">
 
 </div>
 
 ---
 
-## Why LiquidTV
+## Why liquidOS
 
-Stock TV launchers are crowded with recommendations and ads. LiquidTV replaces them with one calm row of the apps
+Stock TV launchers are crowded with recommendations and ads. liquidOS replaces them with one calm row of the apps
 you actually use, and everything else is one press of **Down** away. It is a plain Java launcher with no ads, no
 account and no tracking, and it runs on small TVs.
 
-> LiquidTV is built on [CleanYourTV](https://github.com/Gathin23/cleanyourtv) by Gathin (MIT). The debloat lists
+> liquidOS is built on [CleanYourTV](https://github.com/Gathin23/cleanyourtv) by Gathin (MIT). The debloat lists
 > and tools from that project are still in this repository.
 
 ## Features
@@ -69,11 +69,11 @@ account and no tracking, and it runs on small TVs.
 
 ## Install
 
-LiquidTV is built from source. You need JDK 17 and the Android SDK (platform 34, build-tools 34.0.0).
+liquidOS is built from source. You need JDK 17 and the Android SDK (platform 34, build-tools 34.0.0).
 
 ```bash
-git clone https://github.com/KirillCh143/LiquidTV.git
-cd LiquidTV/launcher
+git clone https://github.com/KirillCh143/liquidOS.git
+cd liquidOS/launcher
 ./gradlew assembleRelease          # APK: app/build/outputs/apk/release/app-release.apk
 ```
 
@@ -85,15 +85,15 @@ adb install -r app/build/outputs/apk/release/app-release.apk
 ```
 
 Then open the quick panel, go to **Home screen → About → Default home screen** (or the TV's own Settings → Apps →
-Default home) and pick LiquidTV.
+Default home) and pick liquidOS.
 
 > **Google TV note.** The stock Google TV launcher outranks other launchers, so the Home button may still open it.
 > The scripts in [`tools/`](tools) can disable the stock launcher the safe way (`pm disable-user`, never an uninstall)
-> and restore it later with `tools/restore.sh`. Install and confirm LiquidTV works first, and read
+> and restore it later with `tools/restore.sh`. Install and confirm liquidOS works first, and read
 > [`docs/TROUBLESHOOTING.md`](docs/TROUBLESHOOTING.md) before you disable anything.
 
 `launcher/build-and-install.sh` does the build, the install and the Home check in one go, and disables the stock
-launcher only after LiquidTV is confirmed as Home:
+launcher only after liquidOS is confirmed as Home:
 
 ```bash
 TV_HOST=192.168.1.50 ./build-and-install.sh
@@ -132,7 +132,7 @@ See [`launcher/FONT-LICENSE-OFL.txt`](launcher/FONT-LICENSE-OFL.txt).
 
 ## Credits and inspiration
 
-Some ideas and functionality in LiquidTV are borrowed from, or inspired by, these projects:
+Some ideas and functionality in liquidOS are borrowed from, or inspired by, these projects:
 
 - [AndroidLiquidGlass](https://github.com/Kyant0/AndroidLiquidGlass) by Kyant0: the liquid glass look of the dock and menus.
 - [tvOS-Launcher](https://github.com/techgenius1/tvOS-Launcher) by techgenius1: the tvOS-style home screen for Android TV.
@@ -142,9 +142,9 @@ Thank you to their authors.
 
 ## Status
 
-LiquidTV is in **beta**. It runs on a Google TV Streamer, but your TV may behave differently. If something
+liquidOS is in **beta**. It runs on a Google TV Streamer, but your TV may behave differently. If something
 goes wrong, open an issue with your TV model, Android version and a screenshot.
 
 ---
 
-<div align="center"><sub>LiquidTV · version Beta 0.9.14 · made with care for the big screen</sub></div>
+<div align="center"><sub>liquidOS · version Beta 0.9.14 · made with care for the big screen</sub></div>

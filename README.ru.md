@@ -1,6 +1,6 @@
 <div align="center">
 
-# LiquidTV
+# liquidOS
 
 **Домашний экран в стиле Apple&nbsp;TV для Android&nbsp;TV и Google&nbsp;TV.**
 Стеклянный док, полноэкранная сетка приложений, живые обои и 14 языков. Без рекламы и аккаунтов.
@@ -12,19 +12,19 @@
 
 [English](README.md) · **Русский**
 
-<img src="scrins/tv-001229.png" alt="Домашний экран LiquidTV со стеклянным доком" width="860">
+<img src="scrins/tv-001229.png" alt="Домашний экран liquidOS со стеклянным доком" width="860">
 
 </div>
 
 ---
 
-## Зачем LiquidTV
+## Зачем liquidOS
 
-Штатные лаунчеры ТВ забиты рекомендациями и рекламой. LiquidTV заменяет их одним спокойным рядом приложений,
+Штатные лаунчеры ТВ забиты рекомендациями и рекламой. liquidOS заменяет их одним спокойным рядом приложений,
 которыми вы действительно пользуетесь, а всё остальное открывается одним нажатием **вниз**. Это обычный лаунчер
 на Java без рекламы, аккаунтов и слежки, он работает даже на слабых телевизорах.
 
-> LiquidTV построен на [CleanYourTV](https://github.com/Gathin23/cleanyourtv) автора Gathin (MIT). Списки
+> liquidOS построен на [CleanYourTV](https://github.com/Gathin23/cleanyourtv) автора Gathin (MIT). Списки
 > отключения лишнего и инструменты из того проекта остались в этом репозитории.
 
 ## Возможности
@@ -69,11 +69,11 @@
 
 ## Установка
 
-LiquidTV собирается из исходников. Нужны JDK 17 и Android SDK (platform 34, build-tools 34.0.0).
+liquidOS собирается из исходников. Нужны JDK 17 и Android SDK (platform 34, build-tools 34.0.0).
 
 ```bash
-git clone https://github.com/KirillCh143/LiquidTV.git
-cd LiquidTV/launcher
+git clone https://github.com/KirillCh143/liquidOS.git
+cd liquidOS/launcher
 ./gradlew assembleRelease          # APK: app/build/outputs/apk/release/app-release.apk
 ```
 
@@ -85,15 +85,15 @@ adb install -r app/build/outputs/apk/release/app-release.apk
 ```
 
 Затем откройте быструю панель, зайдите в **Главный экран → О приложении → Главный экран по умолчанию** (или в
-системные «Настройки → Приложения → Главный экран по умолчанию») и выберите LiquidTV.
+системные «Настройки → Приложения → Главный экран по умолчанию») и выберите liquidOS.
 
 > **Google TV.** У штатного лаунчера Google TV приоритет выше, чем у остальных, поэтому кнопка Home может по-прежнему
 > открывать его. Скрипты в [`tools/`](tools) умеют безопасно отключать штатный лаунчер (`pm disable-user`, никогда
-> не удаление) и возвращать его через `tools/restore.sh`. Сначала установите LiquidTV и убедитесь, что он работает,
+> не удаление) и возвращать его через `tools/restore.sh`. Сначала установите liquidOS и убедитесь, что он работает,
 > и прочитайте [`docs/TROUBLESHOOTING.md`](docs/TROUBLESHOOTING.md), прежде чем что-то отключать.
 
 `launcher/build-and-install.sh` делает сборку, установку и проверку Home за один раз и отключает штатный лаунчер
-только после того, как LiquidTV подтверждённо стал Home:
+только после того, как liquidOS подтверждённо стал Home:
 
 ```bash
 TV_HOST=192.168.1.50 ./build-and-install.sh
@@ -132,7 +132,7 @@ Ubuntu Font Licence. Все взяты из [Google Fonts](https://fonts.google.
 
 ## Благодарности и источники вдохновения
 
-Часть идей и функциональности LiquidTV заимствована из этих проектов или вдохновлена ими:
+Часть идей и функциональности liquidOS заимствована из этих проектов или вдохновлена ими:
 
 - [AndroidLiquidGlass](https://github.com/Kyant0/AndroidLiquidGlass) автора Kyant0: вид «жидкого стекла» у дока и меню.
 - [tvOS-Launcher](https://github.com/techgenius1/tvOS-Launcher) автора techgenius1: домашний экран в стиле tvOS для Android TV.
@@ -142,9 +142,9 @@ Ubuntu Font Licence. Все взяты из [Google Fonts](https://fonts.google.
 
 ## Статус
 
-LiquidTV находится в **бета-версии**. Он работает на Google TV Streamer, но на вашем ТВ всё может быть иначе. Если
+liquidOS находится в **бета-версии**. Он работает на Google TV Streamer, но на вашем ТВ всё может быть иначе. Если
 что-то пошло не так, создайте issue: укажите модель ТВ, версию Android и приложите скриншот.
 
 ---
 
-<div align="center"><sub>LiquidTV · версия Beta 0.9.14 · сделано с заботой о большом экране</sub></div>
+<div align="center"><sub>liquidOS · версия Beta 0.9.14 · сделано с заботой о большом экране</sub></div>
