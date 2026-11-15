@@ -12,7 +12,7 @@
 
 [English](README.md) · **Русский**
 
-<img src="docs/liquidtv/home.jpg" alt="Домашний экран LiquidTV со стеклянным доком" width="860">
+<img src="scrins/tv-001229.png" alt="Домашний экран LiquidTV со стеклянным доком" width="860">
 
 </div>
 
@@ -46,20 +46,18 @@
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/liquidtv/apps-grid.jpg" alt="Сетка всех приложений"><br><sub><b>Все приложения.</b> Выезжают из дока поверх размытых обоев.</sub></td>
-    <td width="50%"><img src="docs/liquidtv/tile-menu.jpg" alt="Меню плитки"><br><sub><b>Меню плитки.</b> Удерживайте OK на приложении.</sub></td>
+    <td width="50%"><img src="scrins/tv-001552.png" alt="Сетка всех приложений"><br><sub><b>Все приложения.</b> Выезжают из дока поверх размытых обоев.</sub></td>
+    <td width="50%"><img src="scrins/tv-001326.png" alt="Меню плитки"><br><sub><b>Меню плитки.</b> Удерживайте OK на приложении.</sub></td>
   </tr>
   <tr>
-    <td width="50%"><img src="docs/liquidtv/quick-panel.jpg" alt="Быстрая панель"><br><sub><b>Быстрая панель.</b> Питание, сеть, настройки и не только.</sub></td>
-    <td width="50%"><img src="docs/liquidtv/settings.jpg" alt="Настройки"><br><sub><b>Настройки.</b> Стиль, язык и шрифт, сетка приложений, внешний вид.</sub></td>
+    <td width="50%"><img src="scrins/tv-001523.png" alt="Быстрая панель"><br><sub><b>Быстрая панель.</b> Питание, сеть, настройки и не только.</sub></td>
+    <td width="50%"><img src="scrins/tv-001749.png" alt="Настройки"><br><sub><b>Настройки.</b> Стиль, язык и шрифт, сетка приложений, внешний вид.</sub></td>
   </tr>
   <tr>
-    <td width="50%"><img src="docs/liquidtv/themes.jpg" alt="Темы"><br><sub><b>Темы.</b> Монохром, Матовый лёд, Жидкое стекло.</sub></td>
-    <td width="50%"><img src="docs/liquidtv/fonts.jpg" alt="Шрифты"><br><sub><b>Шрифты.</b> Каждое название нарисовано своим шрифтом.</sub></td>
+    <td width="50%"><img src="scrins/tv-001805.png" alt="Темы"><br><sub><b>Темы.</b> Монохром, Матовый лёд, Жидкое стекло.</sub></td>
+    <td width="50%"><img src="scrins/tv-001912.png" alt="Обои"><br><sub><b>Обои.</b> Встроенные картинки, слайдшоу и заставка.</sub></td>
   </tr>
 </table>
-
-> На скриншотах интерфейс на английском, но все экраны переведены на 14 языков, см. [Языки](#языки).
 
 ## Требования
 

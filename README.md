@@ -12,7 +12,7 @@ A glass dock, a full-screen apps grid, live wallpapers and 14 languages. No ads,
 
 **English** · [Русский](README.ru.md)
 
-<img src="docs/liquidtv/home.jpg" alt="LiquidTV home screen with the glass dock" width="860">
+<img src="scrins/tv-001229.png" alt="LiquidTV home screen with the glass dock" width="860">
 
 </div>
 
@@ -46,16 +46,16 @@ account and no tracking, and it runs on small TVs.
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/liquidtv/apps-grid.jpg" alt="All apps grid"><br><sub><b>All apps.</b> Slides up from the dock over a blurred wallpaper.</sub></td>
-    <td width="50%"><img src="docs/liquidtv/tile-menu.jpg" alt="Tile menu"><br><sub><b>Tile menu.</b> Hold OK on an app.</sub></td>
+    <td width="50%"><img src="scrins/tv-001552.png" alt="All apps grid"><br><sub><b>All apps.</b> Slides up from the dock over a blurred wallpaper.</sub></td>
+    <td width="50%"><img src="scrins/tv-001326.png" alt="Tile menu"><br><sub><b>Tile menu.</b> Hold OK on an app.</sub></td>
   </tr>
   <tr>
-    <td width="50%"><img src="docs/liquidtv/quick-panel.jpg" alt="Quick panel"><br><sub><b>Quick panel.</b> Power, network, settings and more.</sub></td>
-    <td width="50%"><img src="docs/liquidtv/settings.jpg" alt="Settings"><br><sub><b>Settings.</b> Style, language and font, app grid, appearance.</sub></td>
+    <td width="50%"><img src="scrins/tv-001523.png" alt="Quick panel"><br><sub><b>Quick panel.</b> Power, network, settings and more.</sub></td>
+    <td width="50%"><img src="scrins/tv-001749.png" alt="Settings"><br><sub><b>Settings.</b> Style, language and font, app grid, appearance.</sub></td>
   </tr>
   <tr>
-    <td width="50%"><img src="docs/liquidtv/themes.jpg" alt="Themes"><br><sub><b>Themes.</b> Monochrome, Frosted ice, Liquid glass.</sub></td>
-    <td width="50%"><img src="docs/liquidtv/fonts.jpg" alt="Fonts"><br><sub><b>Fonts.</b> Each name is drawn in its own typeface.</sub></td>
+    <td width="50%"><img src="scrins/tv-001805.png" alt="Themes"><br><sub><b>Themes.</b> Monochrome, Frosted ice, Liquid glass.</sub></td>
+    <td width="50%"><img src="scrins/tv-001912.png" alt="Wallpapers"><br><sub><b>Wallpapers.</b> Built-in pictures, a slideshow and the screensaver.</sub></td>
   </tr>
 </table>
 
