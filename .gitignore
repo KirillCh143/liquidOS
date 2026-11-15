@@ -1,0 +1,28 @@
+# Gradle and Android build output
+.gradle/
+build/
+captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Local machine settings (SDK path) and signing material
+local.properties
+*.jks
+*.keystore
+*.properties.local
+launcher/app/release/
+
+# JVM crash and replay logs
+hs_err_pid*.log
+replay_pid*.log
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
