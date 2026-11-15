@@ -130,6 +130,16 @@ Outfit, Nunito, Rubik и Roboto под SIL Open Font License, Roboto Slab под
 Ubuntu Font Licence. Все взяты из [Google Fonts](https://fonts.google.com/).
 См. [`launcher/FONT-LICENSE-OFL.txt`](launcher/FONT-LICENSE-OFL.txt).
 
+## Благодарности и источники вдохновения
+
+Часть идей и функциональности LiquidTV заимствована из этих проектов или вдохновлена ими:
+
+- [AndroidLiquidGlass](https://github.com/Kyant0/AndroidLiquidGlass) автора Kyant0: вид «жидкого стекла» у дока и меню.
+- [tvOS-Launcher](https://github.com/techgenius1/tvOS-Launcher) автора techgenius1: домашний экран в стиле tvOS для Android TV.
+- [Aerial](https://github.com/AerialWindows/Aerial): аэросъёмка Apple TV в роли заставки.
+
+Спасибо их авторам.
+
 ## Статус
 
 LiquidTV находится в **бета-версии**. Он работает на Google TV Streamer, но на вашем ТВ всё может быть иначе. Если
