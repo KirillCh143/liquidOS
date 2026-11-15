@@ -24,8 +24,7 @@ Stock TV launchers are crowded with recommendations and ads. liquidOS replaces t
 you actually use, and everything else is one press of **Down** away. It is a plain Java launcher with no ads, no
 account and no tracking, and it runs on small TVs.
 
-> liquidOS is built on [CleanYourTV](https://github.com/Gathin23/cleanyourtv) by Gathin (MIT). The debloat lists
-> and tools from that project are still in this repository.
+> liquidOS is built on [CleanYourTV](https://github.com/Gathin23/cleanyourtv) by Gathin (MIT).
 
 ## Features
 
@@ -88,16 +87,8 @@ Then open the quick panel, go to **Home screen → About → Default home screen
 Default home) and pick liquidOS.
 
 > **Google TV note.** The stock Google TV launcher outranks other launchers, so the Home button may still open it.
-> The scripts in [`tools/`](tools) can disable the stock launcher the safe way (`pm disable-user`, never an uninstall)
-> and restore it later with `tools/restore.sh`. Install and confirm liquidOS works first, and read
-> [`docs/TROUBLESHOOTING.md`](docs/TROUBLESHOOTING.md) before you disable anything.
-
-`launcher/build-and-install.sh` does the build, the install and the Home check in one go, and disables the stock
-launcher only after liquidOS is confirmed as Home:
-
-```bash
-TV_HOST=192.168.1.50 ./build-and-install.sh
-```
+> If that happens, you can disable the stock launcher with `pm disable-user` (never an uninstall) and bring it back
+> with `pm enable`. Install and confirm liquidOS works first.
 
 ## Using it
 
